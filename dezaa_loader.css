@@ -1,7 +1,5 @@
-@import "dezaa_variables";
-
 /*test test test test test test test test test test test test test test test test test test test test test test*/
-
 body {
-  background-color: $colorPrimary;
-}
+  background-color: blue; }
+
+/*# sourceMappingURL=dezaa_loader.css.map */
