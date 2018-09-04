@@ -4,3 +4,51 @@
 @mixin setBgColor($color) {
   background-color: $color;
 }
+
+@mixin setTextColor($color) {
+  color: $color;
+}
+
+@mixin setBorder($color , $height: 1 , $type: "solid") {
+  border: $color $height $type;
+}
+
+@mixin colorError {
+  @include setTextColor($colorError);
+}
+
+@mixin colorWarning {
+  @include setTextColor($colorWarning);
+}
+
+@mixin colorSuccess {
+  @include setTextColor($colorSuccess);
+}
+
+@mixin colorPrimary {
+  @include setTextColor($colorPrimary);
+}
+
+@mixin colorLightBlue {
+  @include setTextColor($colorLightBlue);
+}
+
+@mixin colorDarkBlue {
+  @include setTextColor($colorDarkBlue);
+}
+
+@mixin colorLightGray {
+  @include setTextColor($colorLightGray);
+}
+
+@mixin colorGray {
+  @include setTextColor($colorGray);
+}
+
+@mixin colorDarkGray {
+  @include setTextColor($colorDarkGray);
+}
+
+@mixin colorDark {
+  @include setTextColor($colorDark);
+}
