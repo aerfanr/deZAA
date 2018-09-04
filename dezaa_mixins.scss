@@ -1,2 +1,6 @@
 /* dezaa mixins
  for import in project loader*/
+
+@mixin setBgColor($color) {
+  background-color: $color;
+}

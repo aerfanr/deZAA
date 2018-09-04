@@ -3,5 +3,5 @@
 /*test test test test test test test test test test test test test test test test test test test test test test*/
 
 body {
-  background-color: $colorPrimary;
+  @include setBgColor($colorPrimary);
 }
