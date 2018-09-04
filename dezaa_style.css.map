@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAEA,iHAAiH;AAEjH,IAAK;EACH,gBAAgB,EALH,IAAI",
-"sources": ["dezaa_style.scss"],
+"mappings": "AAEA,iHAAiH;AAEjH,IAAK;EACH,gBAAgB,ECLH,IAAI",
+"sources": ["dezaa_style.scss","dezaa_variables.scss"],
 "names": [],
 "file": "dezaa_style.css"
 }
