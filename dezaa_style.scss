@@ -1,7 +1,22 @@
 @import "dezaa_loader";
 
-/*test test test test test test test test test test test test test test test test test test test test test test*/
+.container{
+  display: flex;
+}
+.o-x-center{
+  justify-content: center;
+  justify-items: center;
+}
+.o-x-start{
+  justify-content: flex-start;
+  justify-items: flex-start;
+}
+.o-x-end{
+  justify-content: flex-end;
+  justify-items: flex-end;
+}
 
+/*test test test test test test test test test test test test test test test test test test test test test test*/
 body {
   @include setBgColor($colorPrimary);
 }
