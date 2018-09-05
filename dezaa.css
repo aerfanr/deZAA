@@ -1,10 +1,12 @@
 /*final codes*/
+/*Main Colors*/
+/*Shadow Colors*/
 /* dezaa mixins
  for import in project loader*/
 .container {
   display: flex; }
 
-.o-x-center {
+.o-x-center, .middle {
   justify-content: center;
   justify-items: center; }
 
@@ -16,8 +18,18 @@
   justify-content: flex-end;
   justify-items: flex-end; }
 
-/*test test test test test test test test test test test test test test test test test test test test test test*/
-body {
-  background-color: #1d8be0; }
+.middle {
+  box-shadow: rgba(177, 177, 177, 0.32) 10px 10px 10px;
+  background-color: #fafafa;
+  margin: 30px auto;
+  min-width: 60%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 15px 10px;
+  border: 1px solid #F0F0F0; }
+
+.bg-gray {
+  color: #767676; }
 
 /*# sourceMappingURL=dezaa.css.map */

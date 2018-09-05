@@ -1,22 +1,37 @@
 @import "dezaa_loader";
 
-.container{
+.container {
   display: flex;
 }
-.o-x-center{
+
+.o-x-center {
   justify-content: center;
   justify-items: center;
 }
-.o-x-start{
+
+.o-x-start {
   justify-content: flex-start;
   justify-items: flex-start;
 }
-.o-x-end{
+
+.o-x-end {
   justify-content: flex-end;
   justify-items: flex-end;
 }
 
-/*test test test test test test test test test test test test test test test test test test test test test test*/
-body {
-  @include setBgColor($colorPrimary);
+.middle {
+  box-shadow: $shadowMiddle 10px 10px 10px;
+  background-color: $colorWhitGray;
+  @extend .o-x-center;
+  margin: 30px auto;
+  min-width: 60%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 15px 10px;
+  border: 1px solid $colorLightGray;
+}
+
+.bg-gray {
+  @include colorGray;
 }
