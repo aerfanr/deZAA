@@ -21,7 +21,7 @@
 
 .middle {
   box-shadow: $shadowMiddle 10px 10px 10px;
-  background-color: $colorWhitGray;
+  background-color: $colorLight;
   @extend .o-x-center;
   margin: 30px auto;
   min-width: 60%;
@@ -32,6 +32,3 @@
   border: 1px solid $colorLightGray;
 }
 
-.bg-gray {
-  @include colorGray;
-}

@@ -1,6 +1,40 @@
 /*final codes*/
 /*Main Colors*/
 /*Shadow Colors*/
+/*BackGround Colors*/
+.bg-gray {
+  background-color: #767676; }
+
+.bg-dark-blue {
+  background-color: #1d69b8; }
+
+.bg-primary {
+  background-color: #1d8be0; }
+
+.bg-light-blue {
+  background-color: #6dabda; }
+
+.bg-error {
+  background-color: #e81a48; }
+
+.bg-warning {
+  background-color: #e8d25a; }
+
+.bg-success {
+  background-color: #30ce5f; }
+
+.bg-light {
+  background-color: #fafafa; }
+
+.bg-dark {
+  background-color: #0f0f0f; }
+
+.bg-light-gray {
+  background-color: #F0F0F0; }
+
+.bg-dark-gray {
+  background-color: #555555; }
+
 /* dezaa mixins
  for import in project loader*/
 .container {
@@ -28,8 +62,5 @@
   border-radius: 5px;
   padding: 15px 10px;
   border: 1px solid #F0F0F0; }
-
-.bg-gray {
-  color: #767676; }
 
 /*# sourceMappingURL=dezaa.css.map */

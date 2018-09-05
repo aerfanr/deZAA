@@ -41,8 +41,8 @@
   @include setTextColor($colorLightGray);
 }
 
-@mixin colorWhitGray {
-  @include setTextColor($colorWhitGray);
+@mixin colorLight {
+  @include setTextColor($colorLight);
 }
 
 @mixin colorGray {

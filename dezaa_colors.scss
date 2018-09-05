@@ -1,0 +1,61 @@
+/*Main Colors*/
+$colorDarkBlue: #1d69b8;
+$colorPrimary: #1d8be0;
+$colorLightBlue: #6dabda;
+$colorError: #e81a48;
+$colorWarning: #e8d25a;
+$colorSuccess: #30ce5f;
+$colorLight: #fafafa;
+$colorLightGray: #F0F0F0;
+$colorGray: #767676;
+$colorDarkGray: #555555;
+$colorDark: #0f0f0f;
+
+/*Shadow Colors*/
+$shadowMiddle: rgba(177, 177, 177, 0.32);
+
+/*BackGround Colors*/
+
+.bg-gray {
+  background-color: $colorGray;
+}
+
+.bg-dark-blue {
+  background-color: $colorDarkBlue;
+}
+
+.bg-primary {
+  background-color: $colorPrimary;
+}
+
+.bg-light-blue {
+  background-color: $colorLightBlue;
+}
+
+.bg-error {
+  background-color: $colorError;
+}
+
+.bg-warning {
+  background-color: $colorWarning;
+}
+
+.bg-success {
+  background-color: $colorSuccess;
+}
+
+.bg-light {
+  background-color: $colorLight;
+}
+
+.bg-dark {
+  background-color: $colorDark;
+}
+
+.bg-light-gray {
+  background-color: $colorLightGray;
+}
+
+.bg-dark-gray {
+  background-color: $colorDarkGray;
+}
