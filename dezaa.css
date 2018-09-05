@@ -38,7 +38,7 @@
 /* dezaa mixins
  for import in project loader*/
 .container {
-  display: flex; }
+  display: inline-flex; }
 
 .o-x-center, .middle {
   justify-content: center;
@@ -62,5 +62,28 @@
   border-radius: 5px;
   padding: 15px 10px;
   border: 1px solid #F0F0F0; }
+
+.button, .btn-primary, .btn-success, .btn-error {
+  min-width: 2.5rem;
+  min-height: 1.5rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem; }
+
+.btn-primary {
+  background-color: #1d8be0; }
+  .btn-primary:hover {
+    background-color: #49a2e7; }
+
+.btn-success {
+  background-color: #30ce5f; }
+  .btn-success:hover {
+    background-color: #59d87f; }
+
+.btn-error {
+  background-color: #e81a48; }
+  .btn-error:hover {
+    background-color: #ed486d; }
 
 /*# sourceMappingURL=dezaa.css.map */

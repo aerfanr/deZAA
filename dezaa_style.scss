@@ -1,7 +1,7 @@
 @import "dezaa_loader";
 
 .container {
-  display: flex;
+  display: inline-flex;
 }
 
 .o-x-center {
@@ -32,3 +32,24 @@
   border: 1px solid $colorLightGray;
 }
 
+.button{
+  min-width: 2.5rem;
+  min-height: 1.5rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.btn-primary{
+  @extend .button;
+  @include setBgColorGOOD($colorPrimary)
+}
+.btn-success{
+  @extend .button;
+  @include setBgColorGOOD($colorSuccess)
+}
+.btn-error{
+  @extend .button;
+  @include setBgColorGOOD($colorError)
+}

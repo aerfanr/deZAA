@@ -4,6 +4,12 @@
 @mixin setBgColor($color) {
   background-color: $color;
 }
+@mixin setBgColorGOOD($color) {
+  background-color: $color;
+  &:hover{
+    background-color: lighten($color, 10%);
+  }
+}
 
 @mixin setTextColor($color) {
   color: $color;
