@@ -62,3 +62,13 @@
 @mixin colorDark {
   @include setTextColor($colorDark);
 }
+
+@mixin padding-xlow{
+  padding: $xlow;
+}
+
+@mixin mouse-hand-hover{
+  &:hover{
+    cursor: pointer;
+  }
+}

@@ -19,6 +19,21 @@
   justify-items: flex-end;
 }
 
+.o-y-center {
+  justify-content: center;
+  justify-items: center;
+}
+
+.o-y-start {
+  justify-content: flex-start;
+  justify-items: flex-start;
+}
+
+.o-y-end {
+  justify-content: flex-end;
+  justify-items: flex-end;
+}
+
 .middle {
   box-shadow: $shadowMiddle 10px 10px 10px;
   background-color: $colorLight;
@@ -36,9 +51,10 @@
   min-width: 2.5rem;
   min-height: 1.5rem;
   display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0.5rem;
+  @extend .o-x-center;
+  @extend .o-y-center;
+  @include padding-xlow;
+  @include mouse-hand-hover;
 }
 
 .btn-primary{

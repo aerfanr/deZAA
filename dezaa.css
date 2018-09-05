@@ -40,7 +40,7 @@
 .container {
   display: inline-flex; }
 
-.o-x-center, .middle {
+.o-x-center, .middle, .button, .btn-primary, .btn-success, .btn-error {
   justify-content: center;
   justify-items: center; }
 
@@ -49,6 +49,18 @@
   justify-items: flex-start; }
 
 .o-x-end {
+  justify-content: flex-end;
+  justify-items: flex-end; }
+
+.o-y-center, .button, .btn-primary, .btn-success, .btn-error {
+  justify-content: center;
+  justify-items: center; }
+
+.o-y-start {
+  justify-content: flex-start;
+  justify-items: flex-start; }
+
+.o-y-end {
   justify-content: flex-end;
   justify-items: flex-end; }
 
@@ -67,9 +79,9 @@
   min-width: 2.5rem;
   min-height: 1.5rem;
   display: inline-flex;
-  justify-content: center;
-  align-items: center;
   padding: 0.5rem; }
+  .button:hover, .btn-primary:hover, .btn-success:hover, .btn-error:hover {
+    cursor: pointer; }
 
 .btn-primary {
   background-color: #1d8be0; }
