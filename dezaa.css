@@ -4,7 +4,8 @@
 /*Main Colors*/
 /*Shadow Colors*/
 /*BackGround Colors*/
-@import url("https://fonts.googleapis.com/css?family=Montserrat|Raleway|Source+Sans+Pro");
+@import url("https://fonts.googleapis.com/css?family=Tajawal|Montserrat|Raleway|Source+Sans+Pro");
+@import url("https://fontlibrary.org/face/iranian-sans");
 .bg-gray {
   background-color: #767676 !important; }
 
@@ -30,7 +31,7 @@
   background-color: #fcfcfc !important; }
 
 .bg-dark {
-  background-color: #0f0f0f !important; }
+  background-color: #292929 !important; }
 
 .bg-light-gray {
   background-color: #F0F0F0 !important; }
@@ -64,7 +65,7 @@
   color: #fcfcfc !important; }
 
 .dark {
-  color: #0f0f0f !important; }
+  color: #292929 !important; }
 
 .light-gray {
   color: #F0F0F0 !important; }
@@ -74,62 +75,172 @@
 
 /*Text hoverable Colors*/
 .bg-gray-hoverable {
-  background-color: #767676 !important; }
+  background-color: #767676 !important;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms; }
   .bg-gray-hoverable:hover {
-    background-color: #909090 !important; }
+    background-color: #909090 !important;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms; }
 
 .bg-dark-blue-hoverable {
-  background-color: #1d69b8 !important; }
+  background-color: #1d69b8 !important;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms; }
   .bg-dark-blue-hoverable:hover {
-    background-color: #2a82de !important; }
+    background-color: #2a82de !important;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms; }
 
 .bg-primary-hoverable {
-  background-color: #1d8be0 !important; }
+  background-color: #1d8be0 !important;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms; }
   .bg-primary-hoverable:hover {
-    background-color: #49a2e7 !important; }
+    background-color: #49a2e7 !important;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms; }
 
 .bg-light-blue-hoverable {
-  background-color: #6dabda !important; }
+  background-color: #6dabda !important;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms; }
   .bg-light-blue-hoverable:hover {
-    background-color: #96c2e4 !important; }
+    background-color: #96c2e4 !important;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms; }
 
 .bg-error-hoverable {
-  background-color: #e81a48 !important; }
+  background-color: #e81a48 !important;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms; }
   .bg-error-hoverable:hover {
-    background-color: #ed486d !important; }
+    background-color: #ed486d !important;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms; }
 
 .bg-warning-hoverable {
-  background-color: #e8d25a !important; }
+  background-color: #e8d25a !important;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms; }
   .bg-warning-hoverable:hover {
-    background-color: #eede87 !important; }
+    background-color: #eede87 !important;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms; }
 
 .bg-success-hoverable {
-  background-color: #30ce5f !important; }
+  background-color: #30ce5f !important;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms; }
   .bg-success-hoverable:hover {
-    background-color: #59d87f !important; }
+    background-color: #59d87f !important;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms; }
 
 .bg-light-hoverable {
-  background-color: #fcfcfc !important; }
+  background-color: #fcfcfc !important;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms; }
   .bg-light-hoverable:hover {
-    background-color: white !important; }
+    background-color: white !important;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms; }
 
 .bg-dark-hoverable {
-  background-color: #0f0f0f !important; }
+  background-color: #292929 !important;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms; }
   .bg-dark-hoverable:hover {
-    background-color: #292929 !important; }
+    background-color: #434343 !important;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms; }
 
 .bg-light-gray-hoverable {
-  background-color: #F0F0F0 !important; }
+  background-color: #F0F0F0 !important;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms; }
   .bg-light-gray-hoverable:hover {
-    background-color: white !important; }
+    background-color: white !important;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms; }
 
 .bg-dark-gray-hoverable {
-  background-color: #555555 !important; }
+  background-color: #555555 !important;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms; }
   .bg-dark-gray-hoverable:hover {
-    background-color: #6f6f6f !important; }
+    background-color: #6f6f6f !important;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms; }
 
 * {
-  font-family: "Raleway","Source Sans Pro", "Montserrat", serif; }
+  font-family: "Raleway", "Source Sans Pro", "Montserrat", "IranianSansRegular", "Iranian Sans", "Tajawal", sans-serif; }
 
 body {
   width: 100%;
@@ -138,7 +249,7 @@ body {
 .container, .middle {
   display: inline-flex; }
 
-.o-x-center, .middle, .button, .btn-primary, .btn-success, .btn-error {
+.o-x-center, .middle, .button, .btn-primary, .btn-success, .btn-error, .btn-warning, .btn-dark, .btn-light-blue, .btn-dark-blue, .btn-gray, .btn-dark-gray, .btn-light-gray, .btn-light, .btn-success-outline, .btn-error-outline, .btn-warning-outline, .btn-dark-outline, .btn-light-blue-outline, .btn-dark-blue-outline, .btn-gray-outline, .btn-dark-gray-outline, .btn-light-gray-outline, .btn-light-outline, .button-outline, .btn-primary-outline {
   justify-content: center;
   justify-items: center; }
 
@@ -150,7 +261,7 @@ body {
   justify-content: flex-end;
   justify-items: flex-end; }
 
-.o-y-center, .middle, .button, .btn-primary, .btn-success, .btn-error {
+.o-y-center, .middle, .button, .btn-primary, .btn-success, .btn-error, .btn-warning, .btn-dark, .btn-light-blue, .btn-dark-blue, .btn-gray, .btn-dark-gray, .btn-light-gray, .btn-light, .btn-success-outline, .btn-error-outline, .btn-warning-outline, .btn-dark-outline, .btn-light-blue-outline, .btn-dark-blue-outline, .btn-gray-outline, .btn-dark-gray-outline, .btn-light-gray-outline, .btn-light-outline, .button-outline, .btn-primary-outline {
   justify-content: center;
   justify-items: center; }
 
@@ -173,6 +284,11 @@ body {
 
 .middle {
   background-color: #fcfcfc;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms;
   margin: 30px auto;
   width: 60vw;
   -webkit-border-radius: 5px;
@@ -184,29 +300,296 @@ body {
   -moz-transition: 400ms;
   -webkit-transition: 400ms; }
   .middle:hover {
-    background-color: white; }
+    background-color: white;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms; }
 
-.button, .btn-primary, .btn-success, .btn-error {
+.button, .btn-primary, .btn-success, .btn-error, .btn-warning, .btn-dark, .btn-light-blue, .btn-dark-blue, .btn-gray, .btn-dark-gray, .btn-light-gray, .btn-light, .btn-success-outline, .btn-error-outline, .btn-warning-outline, .btn-dark-outline, .btn-light-blue-outline, .btn-dark-blue-outline, .btn-gray-outline, .btn-dark-gray-outline, .btn-light-gray-outline, .btn-light-outline {
   min-width: 2.5rem;
   min-height: 1.5rem;
   display: inline-flex;
-  padding: 0.5rem; }
-  .button:hover, .btn-primary:hover, .btn-success:hover, .btn-error:hover {
+  padding: 0.5rem;
+  border: none;
+  padding: 10px 6px;
+  vertical-align: middle;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  margin: 5px 2px; }
+  .button:hover, .btn-primary:hover, .btn-success:hover, .btn-error:hover, .btn-warning:hover, .btn-dark:hover, .btn-light-blue:hover, .btn-dark-blue:hover, .btn-gray:hover, .btn-dark-gray:hover, .btn-light-gray:hover, .btn-light:hover, .btn-success-outline:hover, .btn-error-outline:hover, .btn-warning-outline:hover, .btn-dark-outline:hover, .btn-light-blue-outline:hover, .btn-dark-blue-outline:hover, .btn-gray-outline:hover, .btn-dark-gray-outline:hover, .btn-light-gray-outline:hover, .btn-light-outline:hover {
+    cursor: pointer; }
+
+.button-outline, .btn-primary-outline {
+  min-width: 2.5rem;
+  min-height: 1.5rem;
+  display: inline-flex;
+  padding: 0.5rem;
+  padding: 10px 6px;
+  vertical-align: middle;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  margin: 5px 2px;
+  background-color: #fcfcfc; }
+  .button-outline:hover, .btn-primary-outline:hover {
     cursor: pointer; }
 
 .btn-primary {
-  background-color: #1d8be0; }
+  background-color: #1d8be0;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms; }
   .btn-primary:hover {
-    background-color: #49a2e7; }
+    background-color: #49a2e7;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms; }
 
 .btn-success {
-  background-color: #30ce5f; }
+  background-color: #30ce5f;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms; }
   .btn-success:hover {
-    background-color: #59d87f; }
+    background-color: #59d87f;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms; }
 
 .btn-error {
-  background-color: #e81a48; }
+  background-color: #e81a48;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms; }
   .btn-error:hover {
-    background-color: #ed486d; }
+    background-color: #ed486d;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms; }
+
+.btn-warning {
+  background-color: #e8d25a;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms; }
+  .btn-warning:hover {
+    background-color: #eede87;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms; }
+
+.btn-dark {
+  background-color: #292929;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms; }
+  .btn-dark:hover {
+    background-color: #434343;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms; }
+
+.btn-light-blue {
+  background-color: #6dabda;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms; }
+  .btn-light-blue:hover {
+    background-color: #96c2e4;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms; }
+
+.btn-dark-blue {
+  background-color: #1d69b8;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms; }
+  .btn-dark-blue:hover {
+    background-color: #2a82de;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms; }
+
+.btn-gray {
+  background-color: #767676;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms; }
+  .btn-gray:hover {
+    background-color: #909090;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms; }
+
+.btn-dark-gray {
+  background-color: #555555;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms; }
+  .btn-dark-gray:hover {
+    background-color: #6f6f6f;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms; }
+
+.btn-light-gray {
+  background-color: #F0F0F0;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms; }
+  .btn-light-gray:hover {
+    background-color: white;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms; }
+
+.btn-light {
+  background-color: #fcfcfc;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms; }
+  .btn-light:hover {
+    background-color: white;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms; }
+
+.border-black {
+  border: #292929 1px solid; }
+
+.btn-shadow {
+  box-shadow: rgba(177, 177, 177, 0.32) 1px 10px 10px; }
+
+.transition, .btn-primary-outline, .btn-success-outline, .btn-error-outline, .btn-warning-outline, .btn-dark-outline, .btn-light-blue-outline, .btn-dark-blue-outline, .btn-gray-outline, .btn-dark-gray-outline, .btn-light-gray-outline, .btn-light-outline {
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms; }
+
+.btn-primary-outline {
+  border: #1d8be0 2px solid;
+  color: #1d8be0; }
+  .btn-primary-outline:hover {
+    color: #fcfcfc;
+    background-color: #1d8be0; }
+
+.btn-success-outline {
+  border: #30ce5f 2px solid;
+  color: #30ce5f; }
+  .btn-success-outline:hover {
+    color: #fcfcfc;
+    background-color: #30ce5f; }
+
+.btn-error-outline {
+  border: #e81a48 2px solid;
+  color: #e81a48; }
+  .btn-error-outline:hover {
+    color: #fcfcfc;
+    background-color: #e81a48; }
+
+.btn-warning-outline {
+  border: #e8d25a 2px solid;
+  color: #e8d25a; }
+  .btn-warning-outline:hover {
+    color: #fcfcfc;
+    background-color: #e8d25a; }
+
+.btn-dark-outline {
+  border: #292929 2px solid;
+  color: #292929; }
+  .btn-dark-outline:hover {
+    color: #fcfcfc;
+    background-color: #292929; }
+
+.btn-light-blue-outline {
+  border: #6dabda 2px solid;
+  color: #6dabda; }
+  .btn-light-blue-outline:hover {
+    color: #fcfcfc;
+    background-color: #6dabda; }
+
+.btn-dark-blue-outline {
+  border: #1d69b8 2px solid;
+  color: #1d69b8; }
+  .btn-dark-blue-outline:hover {
+    color: #fcfcfc;
+    background-color: #1d69b8; }
+
+.btn-gray-outline {
+  border: #767676 2px solid;
+  color: #767676; }
+  .btn-gray-outline:hover {
+    color: #fcfcfc;
+    background-color: #767676; }
+
+.btn-dark-gray-outline {
+  border: #555555 2px solid;
+  color: #555555; }
+  .btn-dark-gray-outline:hover {
+    color: #fcfcfc;
+    background-color: #555555; }
+
+.btn-light-gray-outline {
+  border: #292929 2px solid;
+  color: #292929; }
+  .btn-light-gray-outline:hover {
+    color: #292929;
+    background-color: #F0F0F0; }
+
+.btn-light-outline {
+  border: #fcfcfc 2px solid;
+  color: #fcfcfc; }
+  .btn-light-outline:hover {
+    color: #292929;
+    background-color: #fcfcfc; }
 
 /*# sourceMappingURL=dezaa.css.map */

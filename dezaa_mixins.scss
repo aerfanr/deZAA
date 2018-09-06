@@ -7,21 +7,41 @@
 
 @mixin setBgColorGOOD($color) {
   background-color: $color;
-  &:hover{
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms;
+  &:hover {
     background-color: lighten($color, 10%);
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms;
   }
 }
 
 @mixin setBgColorGOOD_i($color) {
   background-color: $color !important;
-  &:hover{
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms;
+  &:hover {
     background-color: lighten($color, 10%) !important;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+    transition: 200ms;
   }
 }
 
 @mixin setShadow($color) {
   box-shadow: $color 10px 10px 10px;
-  &:hover{
+  &:hover {
     box-shadow: darken($color, 10%) 10px 20px 20px;
   }
 }
@@ -78,19 +98,26 @@
   @include setTextColor($colorDark);
 }
 
-@mixin padding-xlow{
+@mixin padding-xlow {
   padding: $xlow;
 }
 
-@mixin mouse-hand-hover{
-  &:hover{
+@mixin mouse-hand-hover {
+  &:hover {
     cursor: pointer;
   }
 }
 
-@mixin set-transition($time){
+@mixin set-transition($time) {
   transition: $time;
   -moz-transition: $time;
   -webkit-transition: $time;
 }
 
+@mixin set-border-color($color) {
+  @include setBorder($color, 1px, solid);
+}
+
+@mixin set-border-color-outline($color) {
+  @include setBorder($color, 2px, solid);
+}

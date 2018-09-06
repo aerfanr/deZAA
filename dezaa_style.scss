@@ -72,17 +72,220 @@ body {
   @extend .o-y-center;
   @include padding-xlow;
   @include mouse-hand-hover;
+  border: none;
+  padding: 10px 6px;
+  vertical-align: middle;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  margin: 5px 2px;
+}
+
+.button-outline{
+  min-width: 2.5rem;
+  min-height: 1.5rem;
+  display: inline-flex;
+  @extend .o-x-center;
+  @extend .o-y-center;
+  @include padding-xlow;
+  @include mouse-hand-hover;
+  padding: 10px 6px;
+  vertical-align: middle;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  margin: 5px 2px;
+  background-color: $colorLight;
 }
 
 .btn-primary{
   @extend .button;
   @include setBgColorGOOD($colorPrimary)
 }
+
 .btn-success{
   @extend .button;
   @include setBgColorGOOD($colorSuccess)
 }
+
 .btn-error{
   @extend .button;
   @include setBgColorGOOD($colorError)
+}
+
+.btn-warning{
+  @extend .button;
+  @include setBgColorGOOD($colorWarning)
+}
+
+.btn-dark{
+  @extend .button;
+  @include setBgColorGOOD($colorDark)
+}
+
+.btn-light-blue{
+  @extend .button;
+  @include setBgColorGOOD($colorLightBlue)
+}
+
+.btn-dark-blue{
+  @extend .button;
+  @include setBgColorGOOD($colorDarkBlue)
+}
+
+.btn-gray{
+  @extend .button;
+  @include setBgColorGOOD($colorGray)
+}
+
+.btn-dark-gray{
+  @extend .button;
+  @include setBgColorGOOD($colorDarkGray)
+}
+
+.btn-light-gray{
+  @extend .button;
+  @include setBgColorGOOD($colorLightGray)
+}
+
+.btn-light{
+  @extend .button;
+  @include setBgColorGOOD($colorLight)
+}
+
+.border-black {
+  @include set-border-color($colorDark);
+}
+
+.btn-shadow {
+  box-shadow: $shadowMiddle 1px 10px 10px;
+}
+
+.transition {
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms;
+}
+
+.btn-primary-outline{
+  @extend .button-outline;
+  @include set-border-color-outline($colorPrimary);
+  color: $colorPrimary;
+  @extend .transition;
+  &:hover{
+    color: $colorLight;
+    background-color: $colorPrimary;
+  }
+}
+
+.btn-success-outline{
+  @extend .button;
+  @include set-border-color-outline($colorSuccess);
+  color: $colorSuccess;
+  @extend .transition;
+  &:hover{
+    color: $colorLight;
+    background-color: $colorSuccess;
+  }
+}
+
+.btn-error-outline{
+  @extend .button;
+  @include set-border-color-outline($colorError);
+  color: $colorError;
+  @extend .transition;
+  &:hover{
+    color: $colorLight;
+    background-color: $colorError;
+  }
+}
+
+.btn-warning-outline{
+  @extend .button;
+  @include set-border-color-outline($colorWarning);
+  color: $colorWarning;
+  @extend .transition;
+  &:hover{
+    color: $colorLight;
+    background-color: $colorWarning;
+  }
+}
+
+.btn-dark-outline{
+  @extend .button;
+  @include set-border-color-outline($colorDark);
+  color: $colorDark;
+  @extend .transition;
+  &:hover{
+    color: $colorLight;
+    background-color: $colorDark;
+  }
+}
+
+.btn-light-blue-outline{
+  @extend .button;
+  @include set-border-color-outline($colorLightBlue);
+  color: $colorLightBlue;
+  @extend .transition;
+  &:hover{
+    color: $colorLight;
+    background-color: $colorLightBlue;
+  }
+}
+
+.btn-dark-blue-outline{
+  @extend .button;
+  @include set-border-color-outline($colorDarkBlue);
+  color: $colorDarkBlue;
+  @extend .transition;
+  &:hover{
+    color: $colorLight;
+    background-color: $colorDarkBlue;
+  }
+}
+
+.btn-gray-outline{
+  @extend .button;
+  @include set-border-color-outline($colorGray);
+  color: $colorGray;
+  @extend .transition;
+  &:hover{
+    color: $colorLight;
+    background-color: $colorGray;
+  }
+}
+
+.btn-dark-gray-outline{
+  @extend .button;
+  @include set-border-color-outline($colorDarkGray);
+  color: $colorDarkGray;
+  @extend .transition;
+  &:hover{
+    color: $colorLight;
+    background-color: $colorDarkGray;
+  }
+}
+
+.btn-light-gray-outline{
+  @extend .button;
+  @include set-border-color-outline($colorDark);
+  color: $colorDark;
+  @extend .transition;
+  &:hover{
+    color: $colorDark;
+    background-color: $colorLightGray;
+  }
+}
+
+.btn-light-outline{
+  @extend .button;
+  @include set-border-color-outline($colorLight);
+  color: $colorLight;
+  @extend .transition;
+  &:hover{
+    color: $colorDark;
+    background-color: $colorLight;
+  }
 }
