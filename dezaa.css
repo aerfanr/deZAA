@@ -1,80 +1,136 @@
 /*final codes*/
+/* dezaa mixins
+ for import in project loader*/
 /*Main Colors*/
 /*Shadow Colors*/
 /*BackGround Colors*/
-@import url("https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro");
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Raleway|Source+Sans+Pro");
 .bg-gray {
-  background-color: #767676; }
+  background-color: #767676 !important; }
 
 .bg-dark-blue {
-  background-color: #1d69b8; }
+  background-color: #1d69b8 !important; }
 
 .bg-primary {
-  background-color: #1d8be0; }
+  background-color: #1d8be0 !important; }
 
 .bg-light-blue {
-  background-color: #6dabda; }
+  background-color: #6dabda !important; }
 
 .bg-error {
-  background-color: #e81a48; }
+  background-color: #e81a48 !important; }
 
 .bg-warning {
-  background-color: #e8d25a; }
+  background-color: #e8d25a !important; }
 
 .bg-success {
-  background-color: #30ce5f; }
+  background-color: #30ce5f !important; }
 
 .bg-light {
-  background-color: #fcfcfc; }
+  background-color: #fcfcfc !important; }
 
 .bg-dark {
-  background-color: #0f0f0f; }
+  background-color: #0f0f0f !important; }
 
 .bg-light-gray {
-  background-color: #F0F0F0; }
+  background-color: #F0F0F0 !important; }
 
 .bg-dark-gray {
-  background-color: #555555; }
+  background-color: #555555 !important; }
 
 /*Text Colors*/
 .gray {
-  color: #767676; }
+  color: #767676 !important; }
 
 .dark-blue {
-  color: #1d69b8; }
+  color: #1d69b8 !important; }
 
 .primary {
-  color: #1d8be0; }
+  color: #1d8be0 !important; }
 
 .light-blue {
-  color: #6dabda; }
+  color: #6dabda !important; }
 
 .error {
-  color: #e81a48; }
+  color: #e81a48 !important; }
 
 .warning {
-  color: #e8d25a; }
+  color: #e8d25a !important; }
 
 .success {
-  color: #30ce5f; }
+  color: #30ce5f !important; }
 
 .light {
-  color: #fcfcfc; }
+  color: #fcfcfc !important; }
 
 .dark {
-  color: #0f0f0f; }
+  color: #0f0f0f !important; }
 
 .light-gray {
-  color: #F0F0F0; }
+  color: #F0F0F0 !important; }
 
 .dark-gray {
-  color: #555555; }
+  color: #555555 !important; }
+
+/*Text hoverable Colors*/
+.bg-gray-hoverable {
+  background-color: #767676 !important; }
+  .bg-gray-hoverable:hover {
+    background-color: #909090 !important; }
+
+.bg-dark-blue-hoverable {
+  background-color: #1d69b8 !important; }
+  .bg-dark-blue-hoverable:hover {
+    background-color: #2a82de !important; }
+
+.bg-primary-hoverable {
+  background-color: #1d8be0 !important; }
+  .bg-primary-hoverable:hover {
+    background-color: #49a2e7 !important; }
+
+.bg-light-blue-hoverable {
+  background-color: #6dabda !important; }
+  .bg-light-blue-hoverable:hover {
+    background-color: #96c2e4 !important; }
+
+.bg-error-hoverable {
+  background-color: #e81a48 !important; }
+  .bg-error-hoverable:hover {
+    background-color: #ed486d !important; }
+
+.bg-warning-hoverable {
+  background-color: #e8d25a !important; }
+  .bg-warning-hoverable:hover {
+    background-color: #eede87 !important; }
+
+.bg-success-hoverable {
+  background-color: #30ce5f !important; }
+  .bg-success-hoverable:hover {
+    background-color: #59d87f !important; }
+
+.bg-light-hoverable {
+  background-color: #fcfcfc !important; }
+  .bg-light-hoverable:hover {
+    background-color: white !important; }
+
+.bg-dark-hoverable {
+  background-color: #0f0f0f !important; }
+  .bg-dark-hoverable:hover {
+    background-color: #292929 !important; }
+
+.bg-light-gray-hoverable {
+  background-color: #F0F0F0 !important; }
+  .bg-light-gray-hoverable:hover {
+    background-color: white !important; }
+
+.bg-dark-gray-hoverable {
+  background-color: #555555 !important; }
+  .bg-dark-gray-hoverable:hover {
+    background-color: #6f6f6f !important; }
 
 * {
-  font-family: "Source Sans Pro", "Montserrat", serif; }
+  font-family: "Raleway","Source Sans Pro", "Montserrat", serif; }
 
-/* dezaa mixins
- for import in project loader*/
 body {
   width: 100%;
   margin: 0; }

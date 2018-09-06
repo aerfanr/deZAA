@@ -12,6 +12,13 @@
   }
 }
 
+@mixin setBgColorGOOD_i($color) {
+  background-color: $color !important;
+  &:hover{
+    background-color: lighten($color, 10%) !important;
+  }
+}
+
 @mixin setShadow($color) {
   box-shadow: $color 10px 10px 10px;
   &:hover{

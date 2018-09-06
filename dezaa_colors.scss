@@ -17,92 +17,139 @@ $shadowMiddle: rgba(177, 177, 177, 0.32);
 /*BackGround Colors*/
 
 .bg-gray {
-  background-color: $colorGray;
+  background-color: $colorGray!important;
 }
 
 .bg-dark-blue {
-  background-color: $colorDarkBlue;
+  background-color: $colorDarkBlue!important;
 }
 
 .bg-primary {
-  background-color: $colorPrimary;
+  background-color: $colorPrimary!important;
 }
 
 .bg-light-blue {
-  background-color: $colorLightBlue;
+  background-color: $colorLightBlue!important;
 }
 
 .bg-error {
-  background-color: $colorError;
+  background-color: $colorError!important;
 }
 
 .bg-warning {
-  background-color: $colorWarning;
+  background-color: $colorWarning!important;
 }
 
 .bg-success {
-  background-color: $colorSuccess;
+  background-color: $colorSuccess!important;
 }
 
 .bg-light {
-  background-color: $colorLight;
+  background-color: $colorLight!important;
 }
 
 .bg-dark {
-  background-color: $colorDark;
+  background-color: $colorDark!important;
 }
 
 .bg-light-gray {
-  background-color: $colorLightGray;
+  background-color: $colorLightGray!important;
 }
 
 .bg-dark-gray {
-  background-color: $colorDarkGray;
+  background-color: $colorDarkGray!important;
 }
 
 
 /*Text Colors*/
 
 .gray {
-  color: $colorGray;
+  color: $colorGray!important;
 }
 
 .dark-blue {
-  color: $colorDarkBlue;
+  color: $colorDarkBlue!important;
 }
 
 .primary {
-  color: $colorPrimary;
+  color: $colorPrimary!important;
 }
 
 .light-blue {
-  color: $colorLightBlue;
+  color: $colorLightBlue!important;
 }
 
 .error {
-  color: $colorError;
+  color: $colorError!important;
 }
 
 .warning {
-  color: $colorWarning;
+  color: $colorWarning!important;
 }
 
 .success {
-  color: $colorSuccess;
+  color: $colorSuccess!important;
 }
 
 .light {
-  color: $colorLight;
+  color: $colorLight!important;
 }
 
 .dark {
-  color: $colorDark;
+  color: $colorDark!important;
 }
 
 .light-gray {
-  color: $colorLightGray;
+  color: $colorLightGray!important;
 }
 
 .dark-gray {
-  color: $colorDarkGray;
+  color: $colorDarkGray!important;
+}
+
+
+/*Text hoverable Colors*/
+
+.bg-gray-hoverable {
+  @include setBgColorGOOD_i($colorGray);
+}
+
+.bg-dark-blue-hoverable {
+  @include setBgColorGOOD_i($colorDarkBlue);
+}
+
+.bg-primary-hoverable {
+  @include setBgColorGOOD_i($colorPrimary);
+}
+
+.bg-light-blue-hoverable {
+  @include setBgColorGOOD_i($colorLightBlue);
+}
+
+.bg-error-hoverable {
+  @include setBgColorGOOD_i($colorError);
+}
+
+.bg-warning-hoverable {
+  @include setBgColorGOOD_i($colorWarning);
+}
+
+.bg-success-hoverable {
+  @include setBgColorGOOD_i($colorSuccess);
+}
+
+.bg-light-hoverable {
+  @include setBgColorGOOD_i($colorLight);
+}
+
+.bg-dark-hoverable {
+  @include setBgColorGOOD_i($colorDark);
+}
+
+.bg-light-gray-hoverable {
+  @include setBgColorGOOD_i($colorLightGray);
+}
+
+.bg-dark-gray-hoverable {
+  @include setBgColorGOOD_i($colorDarkGray);
 }
