@@ -5,7 +5,7 @@ $colorLightBlue: #6dabda;
 $colorError: #e81a48;
 $colorWarning: #e8d25a;
 $colorSuccess: #30ce5f;
-$colorLight: #fafafa;
+$colorLight: #fcfcfc;
 $colorLightGray: #F0F0F0;
 $colorGray: #767676;
 $colorDarkGray: #555555;
@@ -58,4 +58,51 @@ $shadowMiddle: rgba(177, 177, 177, 0.32);
 
 .bg-dark-gray {
   background-color: $colorDarkGray;
+}
+
+
+/*Text Colors*/
+
+.gray {
+  color: $colorGray;
+}
+
+.dark-blue {
+  color: $colorDarkBlue;
+}
+
+.primary {
+  color: $colorPrimary;
+}
+
+.light-blue {
+  color: $colorLightBlue;
+}
+
+.error {
+  color: $colorError;
+}
+
+.warning {
+  color: $colorWarning;
+}
+
+.success {
+  color: $colorSuccess;
+}
+
+.light {
+  color: $colorLight;
+}
+
+.dark {
+  color: $colorDark;
+}
+
+.light-gray {
+  color: $colorLightGray;
+}
+
+.dark-gray {
+  color: $colorDarkGray;
 }

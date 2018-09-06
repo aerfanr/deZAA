@@ -2,6 +2,7 @@
 /*Main Colors*/
 /*Shadow Colors*/
 /*BackGround Colors*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro");
 .bg-gray {
   background-color: #767676; }
 
@@ -24,7 +25,7 @@
   background-color: #30ce5f; }
 
 .bg-light {
-  background-color: #fafafa; }
+  background-color: #fcfcfc; }
 
 .bg-dark {
   background-color: #0f0f0f; }
@@ -35,9 +36,50 @@
 .bg-dark-gray {
   background-color: #555555; }
 
+/*Text Colors*/
+.gray {
+  color: #767676; }
+
+.dark-blue {
+  color: #1d69b8; }
+
+.primary {
+  color: #1d8be0; }
+
+.light-blue {
+  color: #6dabda; }
+
+.error {
+  color: #e81a48; }
+
+.warning {
+  color: #e8d25a; }
+
+.success {
+  color: #30ce5f; }
+
+.light {
+  color: #fcfcfc; }
+
+.dark {
+  color: #0f0f0f; }
+
+.light-gray {
+  color: #F0F0F0; }
+
+.dark-gray {
+  color: #555555; }
+
+* {
+  font-family: "Source Sans Pro", "Montserrat", serif; }
+
 /* dezaa mixins
  for import in project loader*/
-.container {
+body {
+  width: 100%;
+  margin: 0; }
+
+.container, .middle {
   display: inline-flex; }
 
 .o-x-center, .middle, .button, .btn-primary, .btn-success, .btn-error {
@@ -52,7 +94,7 @@
   justify-content: flex-end;
   justify-items: flex-end; }
 
-.o-y-center, .button, .btn-primary, .btn-success, .btn-error {
+.o-y-center, .middle, .button, .btn-primary, .btn-success, .btn-error {
   justify-content: center;
   justify-items: center; }
 
@@ -64,16 +106,29 @@
   justify-content: flex-end;
   justify-items: flex-end; }
 
+.o-margined-center, .middle {
+  margin-right: auto !important;
+  margin-left: auto !important; }
+
+.shadow-box {
+  box-shadow: rgba(177, 177, 177, 0.32) 10px 10px 10px; }
+  .shadow-box:hover {
+    box-shadow: rgba(152, 152, 152, 0.32) 10px 20px 20px; }
+
 .middle {
-  box-shadow: rgba(177, 177, 177, 0.32) 10px 10px 10px;
-  background-color: #fafafa;
+  background-color: #fcfcfc;
   margin: 30px auto;
-  min-width: 60%;
+  width: 60vw;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
   padding: 15px 10px;
-  border: 1px solid #F0F0F0; }
+  border: 1px solid #F0F0F0;
+  transition: 400ms;
+  -moz-transition: 400ms;
+  -webkit-transition: 400ms; }
+  .middle:hover {
+    background-color: white; }
 
 .button, .btn-primary, .btn-success, .btn-error {
   min-width: 2.5rem;

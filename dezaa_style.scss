@@ -1,5 +1,10 @@
 @import "dezaa_loader";
 
+body {
+  width: 100%;
+  margin: 0;
+}
+
 .container {
   display: inline-flex;
 }
@@ -34,17 +39,29 @@
   justify-items: flex-end;
 }
 
+.o-margined-center {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.shadow-box {
+  @include setShadow($shadowMiddle);
+}
+
 .middle {
-  box-shadow: $shadowMiddle 10px 10px 10px;
-  background-color: $colorLight;
+  @include setBgColorGOOD($colorLight);
   @extend .o-x-center;
+  @extend .o-y-center;
+  @extend .o-margined-center;
+  @extend .container;
   margin: 30px auto;
-  min-width: 60%;
+  width: 60vw;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
   padding: 15px 10px;
   border: 1px solid $colorLightGray;
+  @include set-transition(400ms);
 }
 
 .button{
