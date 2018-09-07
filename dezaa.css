@@ -249,7 +249,7 @@ body {
 .container, .middle {
   display: inline-flex; }
 
-.o-x-center, .middle, .button, .btn-primary, .btn-success, .btn-error, .btn-warning, .btn-dark, .btn-light-blue, .btn-dark-blue, .btn-gray, .btn-dark-gray, .btn-light-gray, .btn-light, .btn-success-outline, .btn-error-outline, .btn-warning-outline, .btn-dark-outline, .btn-light-blue-outline, .btn-dark-blue-outline, .btn-gray-outline, .btn-dark-gray-outline, .btn-light-gray-outline, .btn-light-outline, .button-outline, .btn-primary-outline {
+.o-x-center, .middle, .button, .btn-primary, .btn-success, .btn-error, .btn-warning, .btn-dark, .btn-light-blue, .btn-dark-blue, .btn-gray, .btn-dark-gray, .btn-light-gray, .btn-light, .btn-success-outline, .btn-error-outline, .btn-warning-outline, .btn-dark-outline, .btn-light-blue-outline, .btn-dark-blue-outline, .btn-gray-outline, .btn-dark-gray-outline, .btn-light-gray-outline, .btn-light-outline, .button-rounded, .button-outline, .btn-primary-outline {
   justify-content: center;
   justify-items: center; }
 
@@ -261,7 +261,7 @@ body {
   justify-content: flex-end;
   justify-items: flex-end; }
 
-.o-y-center, .middle, .button, .btn-primary, .btn-success, .btn-error, .btn-warning, .btn-dark, .btn-light-blue, .btn-dark-blue, .btn-gray, .btn-dark-gray, .btn-light-gray, .btn-light, .btn-success-outline, .btn-error-outline, .btn-warning-outline, .btn-dark-outline, .btn-light-blue-outline, .btn-dark-blue-outline, .btn-gray-outline, .btn-dark-gray-outline, .btn-light-gray-outline, .btn-light-outline, .button-outline, .btn-primary-outline {
+.o-y-center, .middle, .button, .btn-primary, .btn-success, .btn-error, .btn-warning, .btn-dark, .btn-light-blue, .btn-dark-blue, .btn-gray, .btn-dark-gray, .btn-light-gray, .btn-light, .btn-success-outline, .btn-error-outline, .btn-warning-outline, .btn-dark-outline, .btn-light-blue-outline, .btn-dark-blue-outline, .btn-gray-outline, .btn-dark-gray-outline, .btn-light-gray-outline, .btn-light-outline, .button-rounded, .button-outline, .btn-primary-outline {
   justify-content: center;
   justify-items: center; }
 
@@ -307,7 +307,7 @@ body {
     -o-transition: 200ms;
     transition: 200ms; }
 
-.button, .btn-primary, .btn-success, .btn-error, .btn-warning, .btn-dark, .btn-light-blue, .btn-dark-blue, .btn-gray, .btn-dark-gray, .btn-light-gray, .btn-light, .btn-success-outline, .btn-error-outline, .btn-warning-outline, .btn-dark-outline, .btn-light-blue-outline, .btn-dark-blue-outline, .btn-gray-outline, .btn-dark-gray-outline, .btn-light-gray-outline, .btn-light-outline {
+.button, .btn-primary, .btn-success, .btn-error, .btn-warning, .btn-dark, .btn-light-blue, .btn-dark-blue, .btn-gray, .btn-dark-gray, .btn-light-gray, .btn-light, .btn-success-outline, .btn-error-outline, .btn-warning-outline, .btn-dark-outline, .btn-light-blue-outline, .btn-dark-blue-outline, .btn-gray-outline, .btn-dark-gray-outline, .btn-light-gray-outline, .btn-light-outline, .button-rounded {
   min-width: 2.5rem;
   min-height: 1.5rem;
   display: inline-flex;
@@ -319,7 +319,7 @@ body {
   -moz-border-radius: 2px;
   border-radius: 2px;
   margin: 5px 2px; }
-  .button:hover, .btn-primary:hover, .btn-success:hover, .btn-error:hover, .btn-warning:hover, .btn-dark:hover, .btn-light-blue:hover, .btn-dark-blue:hover, .btn-gray:hover, .btn-dark-gray:hover, .btn-light-gray:hover, .btn-light:hover, .btn-success-outline:hover, .btn-error-outline:hover, .btn-warning-outline:hover, .btn-dark-outline:hover, .btn-light-blue-outline:hover, .btn-dark-blue-outline:hover, .btn-gray-outline:hover, .btn-dark-gray-outline:hover, .btn-light-gray-outline:hover, .btn-light-outline:hover {
+  .button:hover, .btn-primary:hover, .btn-success:hover, .btn-error:hover, .btn-warning:hover, .btn-dark:hover, .btn-light-blue:hover, .btn-dark-blue:hover, .btn-gray:hover, .btn-dark-gray:hover, .btn-light-gray:hover, .btn-light:hover, .btn-success-outline:hover, .btn-error-outline:hover, .btn-warning-outline:hover, .btn-dark-outline:hover, .btn-light-blue-outline:hover, .btn-dark-blue-outline:hover, .btn-gray-outline:hover, .btn-dark-gray-outline:hover, .btn-light-gray-outline:hover, .btn-light-outline:hover, .button-rounded:hover {
     cursor: pointer; }
 
 .button-outline, .btn-primary-outline {
@@ -590,5 +590,8 @@ body {
   .btn-light-outline:hover {
     color: #292929;
     background-color: #fcfcfc; }
+
+.button-rounded {
+  border-radius: 50%; }
 
 /*# sourceMappingURL=dezaa.css.map */
