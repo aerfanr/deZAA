@@ -332,8 +332,7 @@ body {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
-  margin: 5px 2px;
-  background-color: #fcfcfc; }
+  margin: 5px 2px; }
   .button-outline:hover, .btn-primary-outline:hover {
     cursor: pointer; }
 
@@ -579,10 +578,10 @@ body {
     background-color: #555555; }
 
 .btn-light-gray-outline {
-  border: #292929 2px solid;
-  color: #292929; }
+  border: #F0F0F0 2px solid;
+  color: #F0F0F0; }
   .btn-light-gray-outline:hover {
-    color: #292929;
+    color: #555555;
     background-color: #F0F0F0; }
 
 .btn-light-outline {

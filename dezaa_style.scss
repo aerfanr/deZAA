@@ -95,7 +95,6 @@ body {
   -moz-border-radius: 2px;
   border-radius: 2px;
   margin: 5px 2px;
-  background-color: $colorLight;
 }
 
 .btn-primary{
@@ -270,11 +269,11 @@ body {
 
 .btn-light-gray-outline{
   @extend .button;
-  @include set-border-color-outline($colorDark);
-  color: $colorDark;
+  @include set-border-color-outline($colorLightGray);
+  color: $colorLightGray;
   @extend .transition;
   &:hover{
-    color: $colorDark;
+    color: $colorDarkGray;
     background-color: $colorLightGray;
   }
 }
